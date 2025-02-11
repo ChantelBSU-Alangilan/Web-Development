@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <a href="blog.html">Go to blog</a>
+        <!-- heading -->
+         <h1 style="font-size: 35px;">Welcome to my First ever Website</h1>
+         <h2 style="border: 2px solid dodgerblue;">Heading Two</h2>
+         <h3>Heading Three</h3>
+         <h4>Heading Four</h4>
+         <h5>Heading Five</h5>
+         <h6>Heading Six</h6>
+         <!--Parangraph-->
+         <p style="color: brown;">
+            Lorem ipsum dolor sit amet <strong>consectetur adipisicing elit</strong>. Culpa ut sit eius fuga explicabo quasi perferendis, <em>vero molestias minima ad nostrum</em> aliquid nemo repudiandae. Quis nam repudiandae deleniti consectetur et.
+         </p>
+         <p style="font-family:Verdana">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ut sit <a href="http://google.com" target = "_blank">fuga explicabo quasi perferendis, vero molestias minima ad</a> nostrum aliquid nemo repudiandae. Quis nam repudiandae deleniti consectetur et.
+         </p>
+         <p>Do not forget to buy <mark>milk</mark> today.
+         </p>
+         <p>This is H<sub>2</sub>O</p>
+         <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+         <!--Lists-->
+         <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+         </ul>
+
+         <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+         </ol>
+
+         <!--Table-->
+         <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Chantel Kylie</td>
+                <td>chantelkyliemalundas@gmail.com</td>
+                <td>21</td>
+            </tbody>
+            <tbody>
+                <td>Marcel Bautista</td>
+                <td>marcelbautista@gmail.com</td>
+                <td>21</td>
+            </tbody>
+            <tbody>
+                <td>Denise Marie</td>
+                <td>denisemalundas@gmail.com</td>
+                <td>22</td>
+            </tbody>
+         </table>
+
+         <br>
+         <hr>
+         <br>
+         <!--Forms-->
+         <form action="process.php" method="post">
+            <div>
+                <label>First Name</label>
+            <input type="text" name = "firstName"
+            placeholder="Enter First name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+            <input type="text" name = "lastName">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+            <input type="email" name = "email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            <div>
+            <br>
+                <label>Age</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="bday">
+            </div>
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+         </form>
+         <br>
+         <!--Button-->
+         <button>Click Me</button>
+         <br>
+
+         <!--Image-->
+         <a href="images/img1.jpg">
+            <img src="images/img1.jpg" alt="My sample image" width="300" 
+            height="300"></a>
+
+        <br>
+            <!--Image on another website-->
+            <img src="https://images.app.goo.gl/erh2vTcqqSvv3LBy5" alt="Bini"
+            style="width: 104px;height: 142px;">
+
+        <!--Quotations-->
+        <blockquote cite="https://chantelmedia.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eos illo autem similique! Tempore incidunt animi dolorum accusamus rerum sapiente, necessitatibus dignissimos cum vel consequatur eius consectetur esse deserunt harum.
+        </blockquote>
+
+        <h2>Link to an Email Address</h2>
+        <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+        <a href="mailto:arobachicham@gmail.com">Send email</a>
+
+        <h2>Buttons as Links</h2>
+        <button onclick="document.location='https://www.youtube.com'">Youtube</button>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr>  is awesome</p>
+        <p> <cite>HTML crash course</cite> by Brad Traversy</p>
+         <div style="margin-top: 500px;"></div>
+    </body>
+</html>
